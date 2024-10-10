@@ -7,7 +7,7 @@ import 'platform/stub_platform.dart'
     // ignore: uri_does_not_exist
     if (dart.library.io) 'platform/io_platform.dart'
     // ignore: uri_does_not_exist
-    if (dart.library.html) 'platform/browser_platform.dart';
+    if (dart.library.js_interop) 'platform/browser_platform.dart';
 
 class WebsafePlatform {
   factory WebsafePlatform() => _singleton;
